@@ -21,9 +21,9 @@ public class Post {
 	private String imagen;
 	private String cidade;
 	private String estado;
-	private Number telefone;
+	private String telefone;
 	public Post(String id, Date data, String nome, String descricao, String imagen, String cidade, String estado,
-			Number telefone) {
+			String telefone) {
 		super();
 		this.id = id;
 		this.data = data;
@@ -111,10 +111,10 @@ public class Post {
 		this.estado = estado;
 	}
 	@DynamoDBAttribute
-	public Number getTelefone() {
+	public String getTelefone() {
 		return telefone;
 	}
-	public void setTelefone(Number telefone) {
+	public void setTelefone(String telefone) {
 		this.telefone = telefone;
 	}
 	
