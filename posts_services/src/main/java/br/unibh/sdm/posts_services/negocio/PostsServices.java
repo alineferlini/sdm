@@ -1,4 +1,4 @@
-package br.unibh.sdm.posts_service.negocio;
+package br.unibh.sdm.posts_services.negocio;
 
 
 import java.lang.invoke.MethodHandles;
@@ -26,7 +26,7 @@ public class PostsServices {
         this.postRepo=PostRepository;
     }
     
-    public List<Post> getCriptomoedas(){
+    public List<Post> getPosts(){
         if(logger.isInfoEnabled()){
             logger.info("Buscando todos os objetos");
         }
