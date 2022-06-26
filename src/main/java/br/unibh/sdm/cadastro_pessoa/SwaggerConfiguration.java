@@ -27,7 +27,7 @@ public class SwaggerConfiguration {
     
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder().title("Facilita API")
-                .description("API de referência para Criptomoeda e Cotação")
+                .description("API de cadastro de usuário de serviços gerais")
                 .license("Licença Apache 2.0")
                 .version("Versão 1.0.0").build();
     }

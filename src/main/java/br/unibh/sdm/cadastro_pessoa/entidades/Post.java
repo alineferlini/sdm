@@ -17,21 +17,15 @@ public class Post {
 
 	private String codigo;
 	private String id;
-	private Date data;
 	private String nome;
-	private String descricao;
-	private String imagen;
 	private String cidade;
 	private String estado;
 	private String telefone;
-	public Post(String id, Date data, String nome, String descricao, String imagen, String cidade, String estado,
+	public Post(String id, String nome, String cidade, String estado,
 			String telefone) {
 		super();
 		this.id = id;
-		this.data = data;
 		this.nome = nome;
-		this.descricao = descricao;
-		this.imagen = imagen;
 		this.cidade = cidade;
 		this.estado = estado;
 		this.telefone = telefone;
@@ -41,13 +35,12 @@ public class Post {
 	}
 	@Override
 	public String toString() {
-		return "Post [id=" + id + ", data=" + data + ", nome=" + nome + ", descricao=" + descricao + ", imagen="
-				+ imagen + ", cidade=" + cidade + ", estado=" + estado + ", telefone=" + telefone + ", getClass()="
+		return "Post [id=" + id + ", nome=" + nome + ", cidade=" + cidade + ", estado=" + estado + ", telefone=" + telefone + ", getClass()="
 				+ getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
 	}
 	@Override
 	public int hashCode() {
-		return Objects.hash(cidade, data, descricao, estado, id, imagen, nome, telefone);
+		return Objects.hash(cidade, estado, id, nome, telefone);
 	}
 	@Override
 	public boolean equals(Object obj) {
@@ -58,9 +51,9 @@ public class Post {
 		if (getClass() != obj.getClass())
 			return false;
 		Post other = (Post) obj;
-		return Objects.equals(cidade, other.cidade) && Objects.equals(data, other.data)
-				&& Objects.equals(descricao, other.descricao) && Objects.equals(estado, other.estado)
-				&& Objects.equals(id, other.id) && Objects.equals(imagen, other.imagen)
+		return Objects.equals(cidade, other.cidade)
+				&& Objects.equals(estado, other.estado)
+				&& Objects.equals(id, other.id)
 				&& Objects.equals(nome, other.nome) && Objects.equals(telefone, other.telefone);
 	}
 	@DynamoDBAttribute
@@ -80,32 +73,11 @@ public class Post {
 		this.id = id;
 	}
 	@DynamoDBAttribute
-	public Date getData() {
-		return data;
-	}
-	public void setData(Date data) {
-		this.data = data;
-	}
-	@DynamoDBAttribute
 	public String getNome() {
 		return nome;
 	}
 	public void setNome(String nome) {
 		this.nome = nome;
-	}
-	@DynamoDBAttribute
-	public String getDescricao() {
-		return descricao;
-	}
-	public void setDescricao(String descricao) {
-		this.descricao = descricao;
-	}
-	@DynamoDBAttribute
-	public String getImagen() {
-		return imagen;
-	}
-	public void setImagen(String imagen) {
-		this.imagen = imagen;
 	}
 	@DynamoDBAttribute
 	public String getCidade() {

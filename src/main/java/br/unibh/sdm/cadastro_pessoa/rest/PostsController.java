@@ -41,7 +41,7 @@ public class PostsController {
         if(!ObjectUtils.isEmpty(id)){
            return postsServices.getPostById(id);
         }
-        throw new Exception("Criptomoeda com codigo "+id+" nao encontrada");
+        throw new Exception("Serviço com codigo "+id+" nao encontrada");
     }
 
     @ResponseStatus(HttpStatus.CREATED)
@@ -57,7 +57,7 @@ public class PostsController {
     		throw new Exception("Codigo "+id+" nao está correto");
     	}
     	if (!postsServices.isPostExists(post)) {
-    		throw new Exception("Criptomoeda com codigo "+id+" não existe");
+    		throw new Exception("Postagem com codigo "+id+" não existe");
     	}
         return postsServices.savePost(post);
     }
@@ -66,7 +66,7 @@ public class PostsController {
     @DeleteMapping(value = "{id}")
     public boolean updatePost(@PathVariable String id) throws Exception {
     	if (!postsServices.isPostExists(id)) {
-    		throw new Exception("Criptomoeda com codigo "+id+" não existe");
+    		throw new Exception("Postagem com codigo "+id+" não existe");
     	} 
     	postsServices.deletePost(id);
         return true;

@@ -50,25 +50,25 @@ public class PostsServices {
     
     public Post getPostByNome(String nome){
         if(logger.isInfoEnabled()){
-            logger.info("Buscando Criptomoeda com o nome {}",nome);
+            logger.info("Buscando serviços com o nome {}",nome);
         }
         List<Post> lista = this.postRepo.findByNome(nome);
         if(lista == null || lista.isEmpty()){
-            throw new RuntimeException("Criptomoeda com o nome "+nome+" nao encontrada");
+            throw new RuntimeException("Serviços com o nome "+nome+" nao encontrada");
         }
         return lista.get(0);
     }
 
     public Post savePost(Post post){
         if(logger.isInfoEnabled()){
-            logger.info("Salvando Criptomoeda com os detalhes {}",post.toString());
+            logger.info("Salvando modificações com os detalhes {}",post.toString());
         }
         return this.postRepo.save(post);
     }
     
     public void deletePost(String id){
         if(logger.isInfoEnabled()){
-            logger.info("Excluindo Criptomoeda com id {}",id);
+            logger.info("Excluindo serviço com id {}",id);
         }
         this.postRepo.deleteById(id);
     }
