@@ -61,8 +61,8 @@ Obs.: A descrição da execução local abaixo foi elaborada considerando o uso 
 ### Passo a Passo para execução local com docker
 Obs.: A descrição de execução abaixo considera que o usuario tem o aplicativo docker instalado em sua máquina
 * 1° passo:  No terminal do windows executar os seguintes comandos
-   * cd C:\Users\jhcru\sdm\backend-cripto\docker
-   * docker build -–build-arg JAR_FILE=backend-cripto-1.0.0-SNAPSHOT.jar -t sdm/backend-cripto 
+   * cd C:/Users/USER/sdm/pessoa_services/docker
+   * docker build -–build-arg JAR_FILE=pessoa_services-0.0.1-snapshot.jar -t sdm/pessoa_service
 
 <div id='desafio'/> 
 
