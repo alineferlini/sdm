@@ -25,6 +25,8 @@ Criação de um meio de comunicação, onde clientes e prestadores de serviço p
 * [Desafio extra : Frontend](#desafio)
 * [Autores](#autores)
 * [Relatório Final](https://docs.google.com/document/d/1zljkuIHTbY5ccxNhm79-vIanueB_9vSxUbPIT3JEsfo/edit?usp=sharing)
+* [Drive dos arquivos Docker](https://drive.google.com/drive/folders/1k7DhqZQuM6aDox00hYF6vzLKdM5TZ8Dp?usp=sharing)
+
 <div id='dsc'/> 
 
 ## Descrição
@@ -56,16 +58,11 @@ Obs.: A descrição da execução local abaixo foi elaborada considerando o uso 
 
  Dica: Não clique dentro do console para não bloquear a execução. Se ocorrer, aperte Enter para liberar. 
 
-
 ### Passo a Passo para execução local com docker
 Obs.: A descrição de execução abaixo considera que o usuario tem o aplicativo docker instalado em sua máquina
-* 1° passo: navegar até a pasta docker contida no repositorio clonado
-* 2° passo: 
-<ul>
-  <li> 1°passo </li>
-  <li> 2°passo. </li> 
-
-</ul>
+* 1° passo:  No terminal do windows executar os seguintes comandos
+   * cd C:\Users\jhcru\sdm\backend-cripto\docker
+   * docker build -–build-arg JAR_FILE=backend-cripto-1.0.0-SNAPSHOT.jar -t sdm/backend-cripto 
 
 <div id='desafio'/> 
 
