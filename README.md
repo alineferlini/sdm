@@ -51,6 +51,8 @@ $ git clone https://github.com/alineferlini/sdm.git
 ## Evidências da AWS
 
 #### Tela de repositórios do ECR
+![repositorio ECR](https://i.imgur.com/qK5s148.jpg)
+
 #### Telas de cada imagem publicada no ECR
 #### Telas de cada Task Definition para cada micro serviço
 #### Tela do(s) Cluster(s) ECS criado
