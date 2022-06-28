@@ -18,7 +18,6 @@ Criação de um meio de comunicação, onde clientes e prestadores de serviço p
 * [Sumário](#sumario)
 * [Setup](#setup)
 * [Descrição](#dsc)
-* [Evidências da AWS](#evd)
 * [Desafio extra : Frontend](#desafio)
 * [Autores](#autores)
 * [Relatório Final](https://docs.google.com/document/d/1zljkuIHTbY5ccxNhm79-vIanueB_9vSxUbPIT3JEsfo/edit?usp=sharing)
@@ -39,33 +38,13 @@ $ git clone https://github.com/alineferlini/sdm.git
   <li> Utilizamos........ </li>
 </ul>
 
-### Passo a Passo
+### Passo a Passo para execução Local
 <ul>
   <li> 1°passo </li>
   <li> 2°passo. </li> 
 
 </ul>
-
-<div id='evd'/> 
-
-## Evidências da AWS
-
-#### Tela de repositórios do ECR
-![repositorio ECR](https://i.imgur.com/qK5s148.jpg)
-
-#### Telas de cada imagem publicada no ECR
-#### Telas de cada Task Definition para cada micro serviço
-#### Tela do(s) Cluster(s) ECS criado
-#### Telas mostrando que cada serviço subiu com status "has reached steady state"
-#### Telas de log no Cloudwatch para cada serviço
-#### Tela de Configuração do EC2 Security Group
-#### Telas de configuração do EC2 Grupo de destino (Target group)
-#### Tela de configuração do EC2 Load Balance
-#### Tela de configuração do roteamento do EC2 Load Balance para os dois serviços
-#### Telas do Swagger de cada serviço funcionando com o Link do Load Balance
-#### Telas de log do Postman mostrando os testes sendo realizados no Load Balance
-
-
+### Passo a Passo para execução local com docker
 
 
 <div id='desafio'/> 
