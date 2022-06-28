@@ -42,20 +42,25 @@ Para construção desses microserviços foi utilizados os seguintes recursos:
 <div id='stp'/>  
 
 ## Setup
-### Passo a Passo para execução Local
-Obs.: A descrição da execução local abaixo foi elaborada considerando o uso da IDE Eclipse
- 
+
 Para executar esse projeto em sua maquina devemos inicialmente clonar o repositorio [SDM](https://github.com/alineferlini/sdm.git).
 ```shell
 $ git clone https://github.com/alineferlini/sdm.git
 ```
-<ul>
-  <li> 1°passo </li>
-  <li> 2°passo. </li> 
 
-</ul>
+### Passo a Passo para execução Local
+Obs.: A descrição da execução local abaixo foi elaborada considerando o uso da IDE Eclipse
+* 1° passo: No terminal do windows navegue até a pasta contendo o arquivo pessoa_services-0.0.1-snapshot
+* 2° passo: Execute o comando: java -jar -Dspring.config.location=C:/Users/USER/sdm/pessoa_services/ pessoa_services-0.0.1-snapshot.jar
+* 3° passo: Aguarde até que a mensagem: "Started Application in xx.xx seconds" ser exibida
+
+ Dica: Não clique dentro do console para não bloquear a execução. Se ocorrer, aperte Enter para liberar. 
+
 
 ### Passo a Passo para execução local com docker
+Obs.: A descrição de execução abaixo considera que o usuario tem o aplicativo docker instalado em sua máquina
+* 1° passo: navegar até a pasta docker contida no repositorio clonado
+* 2° passo: 
 <ul>
   <li> 1°passo </li>
   <li> 2°passo. </li> 
