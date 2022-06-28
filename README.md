@@ -25,7 +25,7 @@ Criação de um meio de comunicação, onde clientes e prestadores de serviço p
 * [Desafio extra : Frontend](#desafio)
 * [Autores](#autores)
 * [Relatório Final](https://docs.google.com/document/d/1zljkuIHTbY5ccxNhm79-vIanueB_9vSxUbPIT3JEsfo/edit?usp=sharing)
-* [Drive dos arquivos Docker](https://drive.google.com/drive/folders/1k7DhqZQuM6aDox00hYF6vzLKdM5TZ8Dp?usp=sharing)
+* [Drive do projeto](https://drive.google.com/drive/folders/1k7DhqZQuM6aDox00hYF6vzLKdM5TZ8Dp?usp=sharing)
 
 <div id='dsc'/> 
 
