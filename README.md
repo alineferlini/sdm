@@ -1,4 +1,8 @@
 # Facilita
+<h4 align="center"> 
+<img src="https://i.imgur.com/YTIHcCa.png">
+</h4> 
+
 <div id='sobre'/>  
 
 ## Sobre o Projeto
@@ -16,36 +20,51 @@ Criação de um meio de comunicação, onde clientes e prestadores de serviço p
 
 * [Sobre](#sobre)
 * [Sumário](#sumario)
-* [Setup](#setup)
 * [Descrição](#dsc)
+* [Setup](#stp)
 * [Desafio extra : Frontend](#desafio)
 * [Autores](#autores)
 * [Relatório Final](https://docs.google.com/document/d/1zljkuIHTbY5ccxNhm79-vIanueB_9vSxUbPIT3JEsfo/edit?usp=sharing)
 
-<div id='setup'/>  
-
-## Setup
-
-Para executar esse projeto em sua maquina devemos clonar o repositorio [SDM](https://github.com/alineferlini/sdm.git).
-```shell
-$ git clone https://github.com/alineferlini/sdm.git
-```
 <div id='dsc'/> 
 
 ## Descrição
+Foram contruídos dois microserviços diferentes com as seguintes funções:
  <ul>
-  <li> Utilizamos ........ </li>
-  <li> Utilizamos........ </li>
+  <li> Post-Services :  </li>
+  <li> Pessoa-Service: </li>
 </ul>
+Para construção desses microserviços foi utilizados os seguintes recursos:
+ <ul>
+  <li> Banco de dados: Amazon DynamoDB  </li>
+  <li> Linguagem java com framework Spring Boot </li>
+  <li> Framework JUnit 5 para testes </li.
+ 
+</ul>
+ 
+ <div id='stp'/>  
+ 
+ ##Setup
 
 ### Passo a Passo para execução Local
+Obs.: A descrição da execução local abaixo foi elaborada considerando o uso da IDE Eclipse
+ 
+Para executar esse projeto em sua maquina devemos inicialmente clonar o repositorio [SDM](https://github.com/alineferlini/sdm.git).
+```shell
+$ git clone https://github.com/alineferlini/sdm.git
+```
 <ul>
   <li> 1°passo </li>
   <li> 2°passo. </li> 
 
 </ul>
-### Passo a Passo para execução local com docker
 
+### Passo a Passo para execução local com docker
+<ul>
+  <li> 1°passo </li>
+  <li> 2°passo. </li> 
+
+</ul>
 
 <div id='desafio'/> 
 
