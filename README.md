@@ -25,27 +25,23 @@ Criação de um meio de comunicação, onde clientes e prestadores de serviço p
 * [Desafio extra : Frontend](#desafio)
 * [Autores](#autores)
 * [Relatório Final](https://docs.google.com/document/d/1zljkuIHTbY5ccxNhm79-vIanueB_9vSxUbPIT3JEsfo/edit?usp=sharing)
-
 <div id='dsc'/> 
 
 ## Descrição
 Foram contruídos dois microserviços diferentes com as seguintes funções:
- <ul>
-  <li> Post-Services :  </li>
-  <li> Pessoa-Service: </li>
-</ul>
-Para construção desses microserviços foi utilizados os seguintes recursos:
- <ul>
-  <li> Banco de dados: Amazon DynamoDB  </li>
-  <li> Linguagem java com framework Spring Boot </li>
-  <li> Framework JUnit 5 para testes </li.
- 
-</ul>
- 
- <div id='stp'/>  
- 
- ##Setup
+* Post-Services : Cadastro das postagens com os serviços oferecidos pelos prestadores
+* Pessoa-Service: Cadastro dos prestadores na plataforma
 
+
+Para construção desses microserviços foi utilizados os seguintes recursos:
+* Banco de dados: Amazon DynamoDB  
+* Linguagem java com framework Spring Boot 
+* Framework JUnit 5 para testes 
+* Plataforma Postman para testes da API
+
+<div id='stp'/>  
+
+## Setup
 ### Passo a Passo para execução Local
 Obs.: A descrição da execução local abaixo foi elaborada considerando o uso da IDE Eclipse
  
